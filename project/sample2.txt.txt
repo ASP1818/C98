@@ -1,0 +1,38 @@
+Hello
+
+Microsoft Windows [Version 10.0.22000.739]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\satis>python
+Python 3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> f = open("test.txt")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'test.txt'
+>>> exit()
+
+C:\Users\satis>cd oneDrive
+
+C:\Users\satis\OneDrive>cd dasktop
+The system cannot find the path specified.
+
+C:\Users\satis\OneDrive>cd python program 1
+The system cannot find the path specified.
+
+C:\Users\satis\OneDrive>cd desktop
+
+C:\Users\satis\OneDrive\Desktop>cd python program 1
+
+C:\Users\satis\OneDrive\Desktop\python program 1>python
+Python 3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> f = open.("test.txt")
+  File "<stdin>", line 1
+    f = open.("test.txt")
+             ^
+SyntaxError: invalid syntax
+>>> f = open("test.txt")
+>>> f.read()
+'Hello'
+>>>
